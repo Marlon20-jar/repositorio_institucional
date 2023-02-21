@@ -1,0 +1,110 @@
+/*TARJETA EDITAR PERFIL*/
+.card {
+    width: 400px;
+    height: 470px;
+    border-radius: 30px;
+    padding: 30px;
+    backdrop-filter: blur(15px);
+    box-shadow: 10px 10px 70px rgba(0, 0, 0, 0.2);
+    border: solid 4px var(--azul);
+    background: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+  }
+  
+  .card .p-profile {
+    display: flex;
+    justify-content: center;
+    top: -95px;
+    position: relative;
+    grid-template-columns: repeat(auto-fill, 230px);
+  }
+  
+  .card .p-profile img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 4px var(--azul);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card .name {
+    top: -60px;
+    position: relative;
+  }
+  
+  .card .name h2,
+  .card .name p {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .card .name h2 {
+    color: black;
+  }
+  
+  .card .name p {
+    margin: 5px 0px;
+    font-size: 2.5rem;
+    padding: 10px;
+    color: black;
+  }
+  
+  .card .name h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(37, 0, 248);
+  }
+  
+  .card .more button {
+    padding: 15px 20px;
+    border: 1.5px solid #5159e7;
+    border-radius: 30px;
+    background: var(--azul);
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    overflow: hidden;
+    top: -20px;
+  }
+  
+  .card .more button:before {
+    content: "";
+    left: 0;
+    top: 0;
+    transform: translateX(-100%);
+    background: var(--azul);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.2s;
+    border-radius: 30px;
+  }
+  
+  .logo_uaq img {
+    width: 3%;
+    margin: 53.5rem 20px;
+  }
+  
+  .card .name .text {
+    font-size: 2rem;
+    color: black;
+    padding: 0.5rem;
+  }
+  
+  .card .input-text {
+    background-color: rgba(198, 197, 197, 0.404);
+    padding: 1.5rem;
+  }
+  
+  .regresar {
+    color: red;
+  }
+  

@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    background-color:#0B0E1E;
+    color: white;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+
+.cardDocument {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .imagenche {
+    border-radius: 10px;
+    background-color: azure;
+  }
+  
+  @media (max-width: 560px) {
+    .imagenche {
+      width: 90%;
+      height: auto;
+    }
+  }
+
+
+  .Tittle {
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #e60073, 0 0 40px #e60073,
+      0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+
+.DocumentosList{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+  }
+  
+  @media (max-width: 560px) {
+    .DocumentosList {
+      grid-template-columns: 100%;
+    }
+}
